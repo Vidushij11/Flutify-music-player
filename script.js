@@ -17,11 +17,11 @@ let songs = [
     {songName: "Galliyan", filePath: "songs/Galliyan.mp3" , coverPath: "covers/1.png"},
     {songName: "Mann Bharryaa", filePath: "songs/Mann Bharryaa.mp3" , coverPath: "covers/2.png"},
     {songName: "Galliyan", filePath: "songs/Galliyan.mp3" , coverPath: "covers/1.png"},
-    {songName: "Galliyan", filePath: "songs/Galliyan.mp3" , coverPath: "covers/1.png"},
-    {songName: "Galliyan", filePath: "songs/Galliyan.mp3" , coverPath: "covers/1.png"},
-    {songName: "Galliyan", filePath: "songs/Galliyan.mp3" , coverPath: "covers/1.png"},
-    {songName: "Galliyan", filePath: "songs/Galliyan.mp3" , coverPath: "covers/1.png"},
-    {songName: "Galliyan", filePath: "songs/Galliyan.mp3" , coverPath: "covers/1.png"}, 
+    {songName: "Galliyan", filePath: "songs/Mann Bharryaa .mp3" , coverPath: "covers/1.png"},
+    {songName: "Galliyan", filePath: "songs/songs/Krishna Theme  Krish theme  Flute cover By Lakhinandan Lahon.mp3" , coverPath: "covers/1.png"},
+    {songName: "Galliyan", filePath: "songs/songs/y2mate.com - Saathiya Flute Version  Badmas Dil Flute  Singham  Lakhinandan Lahon  Anupam BG.mp3" , coverPath: "covers/1.png"},
+    {songName: "Galliyan", filePath: "songs/songs/y2mate.com - Teri Mitti flute cover instrumental  kesari  Divyansh  Shrivastava akshay kumar parineeti chopra.mp3" , coverPath: "covers/1.png"},
+    {songName: "Galliyan", filePath: "songs/songs/y2mate.com - Ve Maahi flute cover instrumental  kesari  akshay kumar  parineeti chopra  Divyansh Shrivastava.mp3" , coverPath: "covers/1.png"}, 
  ]
 //handle play/pause click
  masterPlay.addEventListener('click', ()=>{
