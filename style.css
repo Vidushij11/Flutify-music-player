@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&family=Varela+Round&display=swap');
+body{
+    background-color: rgb(28, 28, 28);
+    width: 100%
+    /* overflow: hidden; */
+    
+    
+}
+*{
+    padding: 0;
+    margin: 0;
+
+}
+ .brand img{
+    height: 45px;
+    width: 45px;
+    position: relative;
+    top: 10px;
+    left: 5px;
+    
+    
+}
+
+span{
+    font-size: 25px;
+    padding: 5px;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 5px;
+    position: relative;
+    font-weight: bold;
+    
+   
+}
+nav{
+    color: rgba(240, 248, 255, 0.705);
+    font-family: 'Ubuntu', sans-serif;
+    position: fixed;
+    text-decoration: none;
+    z-index: 6;
+   
+    
+}
+nav ul{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    float: left;
+    height: 838px;
+    width: 245px;
+    background-color: black;
+   
+   
+
+}
+li{
+    margin: 10px;
+    margin-left: 20px;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium',  Arial, sans-serif;
+    padding: 5px;
+    
+
+    
+}
+.span{
+    color: white;
+}
+.con{
+    background-color: rgba(0, 0, 0, 0.498);
+    width: 100%;
+    height: 65px;
+    /* position: absolute;
+    left: 245px; */
+    position: fixed;
+    z-index: 5;
+    
+
+    
+    
+}
+.container{
+   
+    min-height: 100.5vh;
+    background-color: rgb(27, 27, 27);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    margin: 10px  ;
+    width: 80%;
+    border-radius: 12px;
+    flex-direction: column;
+    /* height: 7000px; */
+    
+    
+}
+.arrow{
+    position: relative;
+    top: 20px;
+    left: 300px;
+    color: rgba(255, 255, 255, 0.66);
+}
+.sign{
+    color: rgba(255, 255, 255, 0.66); 
+    float: right;
+    position: relative;
+    right: 160px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+a{
+    text-decoration: none;
+    color: rgba(240, 248, 255, 0.669);
+    
+}
+a:hover{
+   color: aliceblue;
+   transition: .7s;
+}
+ .active{
+    text-decoration: none;
+    color: aliceblue;
+}
+.login{
+    height: 45px;
+    width: 100px;
+    background-color: aliceblue;
+    float: right;
+    border-radius: 40px;position: relative;
+    bottom: 15px;
+    align-content: center;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    left: 30px;
+    
+}
+.head{
+    text-align: center;
+    position: relative;
+    left: 20px;
+    top: 10px;
+    font-size: 15px;
+    
+}
+.box{
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    margin-left: 300px;
+    margin-top: 25px;
+    /* position: relative;
+    right: 300px; */
+    
+}
+.bottom{
+    position: fixed;
+    height: 80px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.984);
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    flex-direction: column;
+    z-index: 8;
+}
+.icon{
+    margin-top: 14px;
+    cursor: pointer;
+    
+}
+#myProgressbar{
+    width: 80vw;
+    height: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    
+    
+}
+.block{
+    display: flex;
+    /* background-color: white; */
+    
+    
+    padding: 10px;
+    height: 900px;
+    flex-flow: wrap;
+    
+}
+.playlist-head{
+    padding: 20px;
+    position: relative;
+    left: 35vh;
+    top: 10vh;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif  ;
+}
+
+.card{
+    height: 270px;
+    width: 200px;
+    /* display: inline-block; */
+    background-color:  rgb(21, 21, 21);
+    margin:  20px ;
+    /* margin-top: 50px; */
+    position: relative;
+    /* top: 50px; */
+    left: 50vh;
+    top: 10vh;
+    border-radius: 5px;
+    background-size: cover;
+    border: 1px solid rgba(255, 255, 255, 0.311);
+}
+.card:hover{
+    /* background-color: rgba(44, 44, 44, 0.744); */
+    /* transition: .5s; */
+    filter:grayscale(30%);
+    -webkit-filter: grayscale(30%);
+    transition: filter 0.5s ease-in-out;
+   
+}
+
+.cover1{
+    margin: 10px 15px ;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.title{
+    margin: 0 10px;
+}
+
+.songInfo{
+    position: absolute;
+    left: 10vh;
+    font-size: 20px;
+}
+.songInfo img{
+    opacity: 0;
+    transition: opacity is ease-in;
+    transition: 0.4s;
+}

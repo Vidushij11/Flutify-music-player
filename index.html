@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flutify - Your Favourite Music is Here</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="logoo.png" type="image/x-icon">
+</head>
+<body>
+    <nav>
+        <ul>
+        <li class="brand"><img class="brand" src="logoo.png" alt="Spotify"><span class="span">Flutify</span></li>
+        <span><li><i class="fa fa-home" style="font-size: 20px;"></i>&nbsp;&nbsp;&nbsp;<a class="active" href="#">Home</a></li>
+        <li><i class="fa fa-search" style="font-size: 20px;"></i>&nbsp;&nbsp;&nbsp;<a href="#">Search</a> </li>
+        <li><i class='fas fa-book-open' style="font-size: 20px;"></i>&nbsp;&nbsp;&nbsp;<a href="#">Your Library</a></li></span>
+        <span class="new">
+            <li><i class='fas fa-folder-plus' style='font-size:20px'></i>&nbsp;&nbsp;&nbsp;<a href="">Create Playlist</a> </li>
+            <li><i class='fas fa-heart' style='font-size:20px'></i>&nbsp;&nbsp;&nbsp;<a href=""> Liked Songs</a></li>
+        </span>
+        </ul>
+        
+    </nav>
+    <div class="con">
+        <div class="arrow"> <i class='fas fa-chevron-left' style='font-size:20px'></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class='fas fa-chevron-right' style='font-size:20px'></i>
+        </div>
+        <div class="sign">Sign up</div>
+        <div class="login"><span class="head">Log in</span>
+            </div>
+        </div>
+    <div class="container">
+        
+        <h1 class="playlist-head">Flutify Playlist</h1>
+        
+        <div class="block">
+            <div class="card">
+                <div class="cover1">
+                    <img src="logoo.png" alt="" height="170px" width="170px" class="responsive"
+                    onmouseover="changeImage(1,this)"
+                    onmouseout="changeImage(2,this)">
+                    
+                    
+                </div>
+                <div class="title">
+                    Galliyan - Ek Villan
+                    Melodious flute cover
+                    by Divyansh Srivastava
+                </div>
+            </div>
+            <div class="card">
+                <div class="cover1">
+                    <img src="covers/1.png" alt="" height="170px" width="170px">
+                    
+                </div>
+                <div class="title">
+                        Mann Bharryaa 2.0
+                        Melodious flute cover
+                        by Divyansh Srivastava 
+                </div>
+            </div>
+            <div class="card">
+                <div class="cover1">
+                    <img src="covers/3.png" alt="" height="170px" width="170px">
+                </div>
+                <div class="title">
+                    Krishna Theme Flute cover
+                    by Lakhinandan Lahon
+                </div>
+            </div>
+            <div class="card">
+                <div class="cover1">
+                    <img src="covers/2.png" alt="" height="170px" width="170px">
+                </div>
+                <div class="title">
+                        Mann Bharryaa 2.0
+                        Melodious flute cover
+                        by Divyansh Srivastava
+                </div>
+            </div>
+            <div class="card">
+                <div class="cover1">
+                    <img src="covers/1.png" alt="" height="170px" width="170px">
+                </div>
+                <div class="title">
+                        Galliyan - Ek Villan
+                        Melodious flute cover
+                        by Divyansh Srivastava
+                </div>
+            </div>
+            <div class="card">
+                <div class="cover1">
+                    <img src="covers/4.png" alt="" height="170px" width="170px">
+                </div>
+                <div class="title">
+                        Galliyan - Ek Villan
+                        Melodious flute cover
+                        by Divyansh Srivastava
+                </div>
+            </div>
+            <div class="card">
+                <div class="cover1">
+                    <img src="covers/5.png" alt="" height="170px" width="170px">
+                </div>
+                <div class="title">
+                        Galliyan - Ek Villan
+                        Melodious flute cover
+                        by Divyansh Srivastava
+                </div>
+            </div>
+            <div class="card">
+                <div class="cover1">
+                    <img src="covers/6.png" alt="" height="170px" width="170px">
+                </div>
+                <div class="title">
+                        Galliyan - Ek Villan
+                        Melodious flute cover
+                        by Divyansh Srivastava
+                </div>
+            </div>
+            
+        </div>
+        
+    </div>
+    
+    <div class="bottom">
+        <div class="songInfo">
+            <img src="playing.gif" width="42px" id="gif" >Galliyan By Divyansh Srivastava 
+        </div>
+        <input type="range" name="range" id="myProgressbar" min="0" value="0" max="100">
+        <div class="icon">
+            <i class='fas  fa-step-backward' style="font-size: 20px; ;"></i>
+            <i class='fas fa-2x fa-play-circle' style="font-size: 20px; " id="masterPlay"></i>
+            <i class='fas fa-2x fa-step-forward'style="font-size: 20px;"></i>
+        </div>
+        
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
